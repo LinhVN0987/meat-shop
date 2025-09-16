@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-gradient-to-br from-emerald-100 via-emerald-50 to-white text-black transition-colors duration-500;
+    background-size: 200% 200%;
+    animation: gradientFloat 18s ease-in-out infinite;
+  }
+
+  a {
+    @apply text-emerald-600 transition-colors duration-300 ease-out hover:text-emerald-500;
+  }
+}
+
+@layer components {
+  .card-ambient {
+    @apply bg-white/80 backdrop-blur border border-emerald-100 shadow-lg shadow-emerald-100/60 transition duration-500 ease-out hover:-translate-y-1 hover:shadow-emerald-200/70;
+  }
+
+  .pill-ambient {
+    @apply inline-flex items-center gap-2 rounded-full bg-brand-light/80 px-3 py-1 text-sm font-medium text-brand-dark transition-all duration-500 ease-out;
+  }
+
+  .section-heading {
+    @apply text-3xl font-bold text-black drop-shadow-sm;
+  }
+
+  .fade-up {
+    @apply transition duration-700 ease-out;
+  }
+
+  .fade-up:hover {
+    transform: translateY(-6px) scale(1.01);
+  }
+}
+
+@keyframes gradientFloat {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
