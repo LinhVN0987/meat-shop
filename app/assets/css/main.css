@@ -1,3 +1,4 @@
+@config "../../../tailwind.config.ts";
 @import "tailwindcss";
 @import "@nuxt/ui";
 
@@ -19,11 +20,19 @@
 
 @layer components {
   .card-ambient {
-    @apply bg-white/80 backdrop-blur border border-emerald-100 shadow-lg shadow-emerald-100/60 transition duration-500 ease-out hover:-translate-y-1 hover:shadow-emerald-200/70;
+    @apply backdrop-blur border border-emerald-100 shadow-lg shadow-emerald-100/60 transition duration-500 ease-out hover:-translate-y-1 hover:shadow-emerald-200/70;
+    background-color: rgb(248 253 250 / 0.9);
   }
 
   .pill-ambient {
-    @apply inline-flex items-center gap-2 rounded-full bg-brand-light/80 px-3 py-1 text-sm font-medium text-brand-dark transition-all duration-500 ease-out;
+    @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-medium text-brand-dark transition-all duration-500 ease-out;
+    background-color: rgb(209 250 229 / 0.8);
+  }
+
+  .card-ambient--highlight {
+    background-color: rgb(232 252 243 / 0.92);
+    border-color: rgb(187 247 208 / 0.7);
+    box-shadow: 0 20px 45px -20px rgb(16 185 129 / 0.35);
   }
 
   .section-heading {

@@ -15,8 +15,8 @@
           </UButton>
         </div>
       </div>
-      <UCard class="card-ambient fade-up">
-        <img src="https://images.unsplash.com/photo-1551218370-49e9d2bfa041?auto=format&fit=crop&w=900&q=80" alt="Fresh meat" class="h-full w-full rounded-lg object-cover" />
+      <UCard variant="solid" class="card-ambient fade-up">
+        <img src="https://plus.unsplash.com/premium_photo-1668616814977-05202080759c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fresh meat" class="h-full w-full rounded-lg object-cover" >
       </UCard>
     </section>
 
@@ -26,7 +26,7 @@
         <h2 class="text-2xl font-semibold text-black">Nền tảng tối ưu cho cửa hàng thịt tươi</h2>
       </div>
       <div class="grid gap-6 md:grid-cols-3">
-        <UCard class="card-ambient fade-up">
+        <UCard variant="solid" class="card-ambient card-ambient--highlight fade-up">
           <template #header>
             <div class="flex items-center gap-3">
               <UIcon name="i-heroicons-sparkles" class="h-7 w-7 text-brand-dark" />
@@ -36,7 +36,7 @@
           <p class="text-sm text-neutral-700">Phân loại thịt theo lô hàng, trạng thái tồn kho và cảnh báo hạn sử dụng.</p>
         </UCard>
 
-        <UCard class="card-ambient fade-up">
+        <UCard variant="solid" class="card-ambient fade-up">
           <template #header>
             <div class="flex items-center gap-3">
               <UIcon name="i-heroicons-bolt" class="h-7 w-7 text-brand-dark" />
@@ -46,7 +46,7 @@
           <p class="text-sm text-neutral-700">Giỏ hàng nhiều bước, lịch giao hàng linh hoạt và cập nhật trạng thái realtime.</p>
         </UCard>
 
-        <UCard class="card-ambient fade-up">
+        <UCard variant="solid" class="card-ambient fade-up">
           <template #header>
             <div class="flex items-center gap-3">
               <UIcon name="i-heroicons-presentation-chart-line" class="h-7 w-7 text-brand-dark" />
