@@ -1,6 +1,6 @@
-# Meat Shop - Hệ thống bán thịt tươi
+# Meat Shop - Hệ thống bán thịt
 
-Meat Shop là ứng dụng web giúp cửa hàng thịt tươi quản lý danh mục sản phẩm, đơn hàng của khách và quá trình giao hàng theo thời gian thực. Dự án được xây dựng trên nền tảng Nuxt 4, sẵn sàng mở rộng để tích hợp các tính năng như thanh toán trực tuyến, quản lý tồn kho và báo cáo doanh thu.
+Meat Shop là ứng dụng web giúp cửa hàng thịt quản lý danh mục sản phẩm, đơn hàng của khách và quá trình giao hàng theo thời gian thực. Dự án được xây dựng trên nền tảng Nuxt 4, sẵn sàng mở rộng để tích hợp các tính năng như thanh toán trực tuyến, quản lý tồn kho và báo cáo doanh thu.
 
 ## Điểm nổi bật
 - Tổ chức sản phẩm theo loại thịt, trạng thái tồn kho, mức giá và các nhãn phân loại tùy chỉnh.
