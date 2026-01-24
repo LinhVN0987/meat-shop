@@ -61,6 +61,3 @@ Meat Shop là ứng dụng web giúp cửa hàng thịt quản lý danh mục s�
 - Hoàn thiện hệ thống phân quyền cho quản trị viên, nhân viên bán hàng và thu ngân.
 - Kết nối cổng thanh toán và dịch vụ vận chuyển địa phương.
 
-## Đóng góp
-Đóng góp luôn được chào đón! Hãy mở issue mô tả nhu cầu của bạn hoặc tạo pull request với phần mô tả thay đổi chi tiết. Đừng quên cập nhật README hoặc tài liệu liên quan khi bổ sung tính năng mới.
-
