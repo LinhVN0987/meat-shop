@@ -10,11 +10,11 @@ const year = new Date().getFullYear()
           Meat Shop
         </NuxtLink>
         <div class="flex items-center gap-3">
-          <UButton to="/login" color="primary" variant="soft" class="transition hover:scale-[1.02]">
+          <UButton to="/login" color="primary" variant="soft" class="transition hover:scale-[1.03]">
             Đăng nhập
           </UButton>
-          <UButton to="/dashboard" color="primary" class="shadow-sm shadow-emerald-200/60 transition hover:-translate-y-0.5">
-            Bảng điều khiển
+          <UButton to="/dashboard" color="primary" class="shadow-sm shadow-emerald-200/60 transition hover:-translate-y-0.6">
+            Menu
           </UButton>
         </div>
       </UContainer>
