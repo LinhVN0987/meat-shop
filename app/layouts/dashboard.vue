@@ -17,12 +17,12 @@ const navigationLinks = [
 const userActions = [
   [
     {
-      label: 'Hồ sơ của tôi',
+      label: 'Hồ sơ',
       icon: 'i-heroicons-user-circle',
       to: '/dashboard/profile'
     },
     {
-      label: 'Cài đặt cửa hàng',
+      label: 'Cài đặt chung',
       icon: 'i-heroicons-cog-6-tooth',
       to: '/dashboard/settings'
     }
