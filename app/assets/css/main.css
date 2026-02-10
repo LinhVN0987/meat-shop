@@ -44,7 +44,7 @@
   }
 
   .fade-up:hover {
-    transform: translateY(-6px) scale(1.01);
+    transform: translateY(-6px) scale(1.02);
   }
 }
 
